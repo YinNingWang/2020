@@ -1,0 +1,187 @@
+@media screen and (max-width: 1145px){
+	.small img {
+		width: calc(50% - 3px);
+}
+
+/*pad*/
+
+@media screen and (max-width: 768px){
+	.description p{
+		padding: 50px 50px;
+	}
+
+	#gallery li{
+		margin: 1.2% 2%;
+	}
+	
+	#gallery li a p{
+		font-size: 1rem;
+	}
+
+	.about .graphic{
+		max-height: 30px;
+	}
+
+	.c-and{
+		margin: 12% 5% 0;
+	}
+
+	.worksinfo .title, .worksinfo .contents{
+		display: block;
+	}
+
+	.worksinfo .title{
+		padding: 0 15px;
+		margin: 15px 0 8px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.worksinfo .contents{
+		padding: 0 15px;
+		margin: 8px 0 15px;
+		border-left: none;
+		text-align: center;
+		width: 100%;
+	}
+	.small img{
+		max-width: 768px;
+		width: 100%;
+	}
+	.meddium img{
+		width: 100%;
+	}
+	.mobile img, .mobile video{
+		width: 31.5%;
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	
+	.mobile img:nth-child(4n + 1),.mobile video:nth-child(4n + 1){
+		margin-left: 2%;
+	}
+	.mobile img:nth-child(3n + 1),.mobile video:nth-child(3n + 1){
+		margin-left: 0;
+	}
+
+	.icon_skill.link{
+		padding-left: 36px;
+		border-left: 1px solid #ccc;
+	}
+}
+
+/*mobile*/
+
+@media screen and (max-width: 640px){
+	
+	#logo{
+		margin-left: 20px;
+	}
+
+	nav ul{
+		margin-right: 10px;
+	}
+
+	.stuck nav ul{
+		margin: 10px 10px;
+	}
+
+	#gallery li{
+		width: 45%;
+	}
+
+	.c-specialty, .c-logo, .c-and, .c-hobbies{
+		clear:both;
+	}
+
+	.about .graphic{
+		width: 100%;
+		max-width: 400px;
+		max-height: 850px;
+	}
+
+	.c-specialty, .c-hobbies{
+		width: 95%;
+	}
+
+	.c-and{
+		max-width: 40px;
+		margin: 0 160px;
+	}
+
+	.c-logo{
+		max-width: 300px;
+		margin: -20px 8%;
+		width: 100%;
+	}
+
+	.c-hobbies{
+		margin-top: 40px;
+	}
+
+	#primary{
+		width: 100%;
+		float: none;
+	}
+
+	#secondary{
+		width: 100%;
+		float: none;
+	}
+
+	.mobile img, .mobile video{
+		width: 48%;
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	.mobile img:nth-child(4n + 1),.mobile video:nth-child(4n + 1){
+		margin-left: 2%;
+	}
+	.mobile img:nth-child(3n + 1),.mobile video:nth-child(3n + 1){
+		margin-left: 2%;
+	}
+	.mobile img:nth-child(2n + 1),.mobile video:nth-child(2n + 1){
+		margin-left: 0;
+	}
+}
+
+/*mobile*/
+
+@media screen and (max-width: 480px){
+	h1{
+		font-size: 4rem;
+	}
+	#logo{
+		width: 80px;
+	}
+
+	nav ul li{
+		margin: 8px 5px;
+	}
+
+	.stuck nav ul li{
+		margin: 3px 5px;
+	}
+
+	.main-header span{
+		font-size: 2em;
+	}
+
+	.description p{
+		padding: 50px 15px;
+	}
+
+	#gotop{
+		background-size: 100%;
+		width: 80px;
+		height: 80px;
+	}
+
+	.c-and{
+		margin: 0 42%;
+	}
+
+	.c-logo{
+		margin: -20px 5%;
+	}
+}
