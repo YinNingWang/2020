@@ -143,7 +143,7 @@ WHOLE
 
 .generalsize{
 	width: 100%;
-	max-width: 1144px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;	
 	display: inline-block;
@@ -377,15 +377,26 @@ BODDY
 .works{
 	padding-bottom: 150px;
 }
+.works.selected{
+	padding-bottom: 80px;
+}
 
 #gallery{
 	margin: 0 auto;
 	list-style: none;
 }
 
+#gallery.line2{
+	max-width: 1100px;
+}
+
 #gallery li{
 	float: left;
 	width: 29%;
+	margin: 2%;
+}
+#gallery.line2 li{
+	width: 46%;
 	margin: 2%;
 }
 
@@ -395,6 +406,14 @@ BODDY
 
 .galleryimg{
 	position: relative;	
+}
+
+.galleryimg img{
+    border-radius: 8px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;   
+    -o-transition: all .2s ease-in-out;
 }
 
 .galleryhover{	
@@ -419,9 +438,13 @@ BODDY
     -o-transition: all .3s ease-in-out;
 }
 
-#gallery li a:hover .galleryhover, #gallery li a:hover .galleryhover2{	
+/* #gallery li a:hover .galleryhover, #gallery li a:hover .galleryhover2{	
 	background-size: 100%;
 	opacity: 1;
+} */
+#gallery li a:hover .galleryimg img{	
+	transform: translateY(-7px);
+	box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 #gallery li a p{
@@ -437,6 +460,14 @@ BODDY
 	display: block;
 	line-height: 10%;
 	margin-top: -3px;
+	padding-top: 5px;
+}
+
+#gallery.line2 li a span{
+	padding-top: 15px;
+}
+#gallery.line2 li a span::before{
+	content: none;
 }
 
 #gallery li a span::before, #gallery li a span{
