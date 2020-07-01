@@ -3,7 +3,7 @@
 		width: calc(50% - 3px);
 	}
 	
-	.grid-wrapper .center-wrapper .article{
+	.grid-wrapper .article-wrapper .article{
 		margin: 20px 40px;
 	}
 	.img-medium img{
@@ -120,7 +120,7 @@
 	.grid-wrapper li>div {
 		width: 100%;
 	}
-	.grid-wrapper .center-wrapper{
+	.grid-wrapper .article-wrapper{
 		order: 1;
 	}
 	.grid-wrapper .img-wrapper{

@@ -937,10 +937,10 @@ PROJECTS
     max-width: 950px;
 }
 
-.center-wrapper{
+.article-wrapper{
 	max-width: 780px;
 	margin: 0 auto;
-	padding: 0 40px;
+	padding: 20px 40px;
 }
 
 .article{
@@ -948,7 +948,6 @@ PROJECTS
 }
 .article.center{
 	text-align: center;
-	margin: 20px 0;
 }
 
 .article ul{
@@ -1011,7 +1010,7 @@ PROJECTS
 	margin: 0;
 }
 
-.grid-wrapper .center-wrapper .article{
+.grid-wrapper .article-wrapper .article{
 	margin: 100px;
 	transition: all .3s ease-in-out;
 	-webkit-transition: all .3s ease-in-out;
