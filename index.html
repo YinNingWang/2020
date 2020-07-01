@@ -28,7 +28,7 @@
 					<img src="img/logo.png" alt="Ning">
 				</a>
 				<ul>
-					<li><a id="bt01" href="javascript:;">Works</a></li>
+					<li><a class="bt01" href="javascript:;">Works</a></li>
 					<!-- <li><a id="bt02" href="javascript:;">About</a></li>
 					<li><a id="bt03" href="javascript:;">Contact</a></li> -->
 				</ul>
@@ -37,6 +37,7 @@
 
 		<div id="wrapper"></div>
 		<div class="main-header">	
+			<a class="bt01 scrolldown" href="javascript:;"></a>
 			<div class="cover"></div>		
 			<div class="blackcover"></div>
 			<div class="dotcover"></div>
@@ -75,7 +76,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="c06.html">
+					<a href="d_whoscall.html">
 						<div class="galleryimg">
 							<img src="img/d-whoscall 2.jpg" alt="Whoscall Branding">
 							<div class="galleryhover"></div>
@@ -175,7 +176,7 @@
 
 		//捲到特定區塊
 		$(function(){
-			$('#bt01').click(function(){
+			$('.bt01').click(function(){
 				$('html,body').animate({scrollTop:$('#page1').offset().top}, 800);
 			});
 			
