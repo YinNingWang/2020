@@ -1,3 +1,15 @@
+@media screen and (min-width: 1440px){
+	.img-full {
+		height: 320px;
+	}
+	.hero .blue_p img{
+		object-position: 50% 20%;
+	}
+	.img-center{
+		max-width: 1140px;
+	}
+}
+
 @media screen and (max-width: 1145px){
 	.small img {
 		width: calc(50% - 3px);
@@ -19,6 +31,7 @@
 		height: 72.0%;
 		border-radius: 2%;
 	}
+
 	
 }
 
@@ -126,8 +139,14 @@
 	.grid-wrapper .img-wrapper{
 		order: 2;
 	}
+	.article.center{
+		text-align: left;
+	}
 	.img-full{
 		height: 200px;
+	}
+	.text-container img{
+		max-width: 350px;
 	}
 	
 }
@@ -150,6 +169,9 @@
 
 	#gallery li{
 		width: 45%;
+	}
+	#gallery li a p{
+		padding: 5% 5% 0;
 	}
 
 	.c-specialty, .c-logo, .c-and, .c-hobbies{
@@ -206,6 +228,9 @@
 		margin-left: 0;
 	}
 
+	.hero .blue_p .text-container{
+		top: 50%;
+	}
 	.projects h1{
 		font-size: 3em;
 	}
