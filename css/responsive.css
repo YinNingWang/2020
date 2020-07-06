@@ -17,6 +17,17 @@
 	.scroll-wrapper, .scroll-container{
 		height: 630px;
 	}
+	.img-wrapper video {
+		width: 35%;
+		margin: 20px;
+	}
+
+	.img-hero.citi {
+		max-width: 680px;
+		width: 42%;
+		bottom: -14%;
+		left: 70%;
+	}
 }
 
 @media screen and (max-width: 1145px){
@@ -42,6 +53,15 @@
 	}
 	.scroll-wrapper, .scroll-container{
 		height: 480px;
+	}
+	.hero-citi{
+		height: 540px;
+		overflow: hidden;
+	}
+	.img-hero.citi {
+		width: 73%;
+		left: 81%;	
+		bottom: -5%;
 	}
 
 	
@@ -149,6 +169,7 @@
 		padding: 100px 24px;
 		width: 100%;
 		height: 100%;
+		min-height: 280px;
 	}
 
 	.grid-wrapper li>div {
@@ -176,6 +197,37 @@
 	
 	.scroll-wrapper, .scroll-container{
 		height: 330px;
+	}
+	
+	.img-wrapper video {
+		max-width: 250px;
+	}
+	.img-wrapper.bg-gray {
+		margin-top: 20px;
+	}
+	.img-wrapper .mobile-wrapper video{
+		max-width: none;
+	}
+	
+	.text-container img.title-citi {
+		max-width: 70px;
+		padding-bottom: 0;
+	}
+	.hero-citi{
+		height: 320px;
+	}
+	.img-hero.citi {
+		width: 56%;
+		bottom: -3%;
+		left: 71%;
+	}
+	.hero-citi .image-container, .hero-citi .text-wrapper{
+		margin: 0 auto;
+		height: 280px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: translate(0,0);
 	}
 	
 }
@@ -286,6 +338,12 @@
 	.grid-wrapper li{
 		margin: 40px 0;
 	}
+	.img-hero.citi {
+		min-width: 330px;
+		width: 56%;
+		bottom: 0%;
+		left: 90%;
+	}
 }
 
 /*mobile*/
@@ -355,4 +413,16 @@
 	.hero-pc .text-container {
 		top: 20%;
 	}
+
+	.projects .hero-citi h4{
+		width: 55%;
+		margin: 10px 0;
+	}
+	.img-hero.citi {
+		min-width: 290px;
+		width: 46%;
+		bottom: 3%;
+		left: 98%;
+	}
+
 }
