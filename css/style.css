@@ -449,6 +449,7 @@ BODY
 	margin: 2%;
 }
 #gallery.line2 li{
+	min-height: 300px;
 	width: 46%;
 	margin: 2%;
 }
@@ -503,7 +504,7 @@ BODY
 #gallery li a p{
 	padding: 4% 5% 0;
 	margin: 0 0;
-	color: #444;
+	color: #585858;
 	font-size: 1.2rem;
 }
 
