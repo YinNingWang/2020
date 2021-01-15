@@ -1,0 +1,445 @@
+@media screen and (min-width: 1440px){
+	#gallery.line2{
+		max-width: 1140px;
+	}
+	#gallery.line2 li{
+		height: 461px;
+	}
+	.img-full {
+		height: 320px;
+	}
+	.hero .blue_p img{
+		object-position: 50% 20%;
+	}
+	.img-center, .img-scroll{
+		max-width: 1140px;
+	}
+	.scroll-wrapper{
+		border-radius: 15px;
+	}
+	.scroll-wrapper, .scroll-container{
+		height: 630px;
+	}
+	.img-wrapper video {
+		width: 35%;
+		margin: 20px;
+	}
+
+	.img-hero.citi {
+		max-width: 680px;
+		width: 42%;
+		bottom: -14%;
+		left: 70%;
+	}
+}
+
+@media screen and (max-width: 1145px){
+	.small img {
+		width: calc(50% - 3px);
+	}
+	#gallery.line2 li{
+		height: 380px;
+	}
+	
+	.grid-wrapper .article-wrapper .article{
+		margin: 20px 40px;
+	}
+	.img-medium img{
+		width: 100%;
+	}
+	.img-full img{
+		transform: scale(1.5);
+	}
+	.iframe-container{
+		left: 34.1%;
+		top: 11.5%;
+		width: 39.9%;
+		height: 72.0%;
+		border-radius: 2%;
+	}
+	.scroll-wrapper, .scroll-container{
+		height: 480px;
+	}
+	.hero-citi{
+		height: 540px;
+		overflow: hidden;
+	}
+	.img-hero.citi {
+		width: 73%;
+		left: 81%;	
+		bottom: -5%;
+	}
+
+	
+}
+
+/*pad*/
+
+@media screen and (max-width: 768px){
+	.description p{
+		padding: 50px 50px;
+	}
+
+	#gallery.line2 li{
+		height: 310px;
+	}
+
+	#gallery li{
+		margin: 1.2% 2%;
+	}
+	
+	#gallery li a p{
+		font-size: 1rem;
+	}
+
+	.about .graphic{
+		max-height: 30px;
+	}
+
+	.c-and{
+		margin: 12% 5% 0;
+	}
+
+	.worksinfo .title, .worksinfo .contents{
+		display: block;
+	}
+
+	.worksinfo .title{
+		padding: 0 15px;
+		margin: 15px 0 8px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.worksinfo .contents{
+		padding: 0 15px;
+		margin: 8px 0 15px;
+		border-left: none;
+		text-align: center;
+		width: 100%;
+	}
+	.small img{
+		max-width: 768px;
+		width: 100%;
+	}
+	.meddium img{
+		width: 100%;
+	}
+	.mobile img, .mobile video{
+		width: 31.5%;
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	
+	.mobile img:nth-child(4n + 1),.mobile video:nth-child(4n + 1){
+		margin-left: 2%;
+	}
+	.mobile img:nth-child(3n + 1),.mobile video:nth-child(3n + 1){
+		margin-left: 0;
+	}
+
+	.icon_skill.link{
+		padding-left: 36px;
+		border-left: 1px solid #ccc;
+	}
+
+	.hero{
+		width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
+		min-height: 280px;
+	}
+	.hero-pc{
+		margin-bottom: 30px;
+	}
+	.img-hero {
+		max-width: 410px;
+	}
+	.hero-pc .text-container {
+		top: -49%;
+	}
+
+	.image-container{
+		margin: 0 auto;
+		height: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+	.image-container img{
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
+
+	.text-wrapper {
+		padding: 100px 24px;
+		width: 100%;
+		height: 100%;
+		min-height: 280px;
+	}
+
+	.grid-wrapper li>div {
+		width: 100%;
+	}
+	.grid-wrapper .article-wrapper{
+		order: 1;
+	}
+	.grid-wrapper .img-wrapper{
+		order: 2;
+	}
+	.article.center{
+		text-align: left;
+	}
+	.img-full{
+		height: 200px;
+	}
+	.text-container img{
+		max-width: 350px;
+	}
+	.text-container img.title-whoscall{
+		max-width: 100px;
+		margin-bottom: 10px;
+	}
+	
+	.scroll-wrapper, .scroll-container{
+		height: 330px;
+	}
+	
+	.img-wrapper video {
+		max-width: 250px;
+	}
+	.img-wrapper.bg-gray {
+		margin-top: 20px;
+	}
+	.img-wrapper .mobile-wrapper video{
+		max-width: none;
+	}
+	
+	.text-container img.title-citi {
+		max-width: 70px;
+		padding-bottom: 0;
+	}
+	.hero-citi{
+		height: 320px;
+	}
+	.img-hero.citi {
+		width: 56%;
+		bottom: -3%;
+		left: 71%;
+	}
+	.hero-citi .image-container, .hero-citi .text-wrapper{
+		margin: 0 auto;
+		height: 280px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: translate(0,0);
+	}
+	
+}
+
+/*mobile*/
+
+@media screen and (max-width: 640px){
+	
+	#logo{
+		margin-left: 20px;
+	}
+
+	nav ul{
+		margin-right: 10px;
+	}
+
+	.stuck nav ul{
+		margin: 10px 10px;
+	}
+
+	#gallery.line2 li{
+		height: 250px;
+	}
+	#gallery li{
+		width: 45%;
+	}
+	#gallery li a p{
+		padding: 5% 5% 0;
+	}
+
+	.c-specialty, .c-logo, .c-and, .c-hobbies{
+		clear:both;
+	}
+
+	.about .graphic{
+		width: 100%;
+		max-width: 400px;
+		max-height: 850px;
+	}
+
+	.c-specialty, .c-hobbies{
+		width: 95%;
+	}
+
+	.c-and{
+		max-width: 40px;
+		margin: 0 160px;
+	}
+
+	.c-logo{
+		max-width: 300px;
+		margin: -20px 8%;
+		width: 100%;
+	}
+
+	.c-hobbies{
+		margin-top: 40px;
+	}
+
+	#primary{
+		width: 100%;
+		float: none;
+	}
+
+	#secondary{
+		width: 100%;
+		float: none;
+	}
+
+	.mobile img, .mobile video{
+		width: 48%;
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	.mobile img:nth-child(4n + 1),.mobile video:nth-child(4n + 1){
+		margin-left: 2%;
+	}
+	.mobile img:nth-child(3n + 1),.mobile video:nth-child(3n + 1){
+		margin-left: 2%;
+	}
+	.mobile img:nth-child(2n + 1),.mobile video:nth-child(2n + 1){
+		margin-left: 0;
+	}
+
+	.hero .blue_p .text-container{
+		top: 50%;
+	}
+	.projects h1{
+		font-size: 3em;
+	}
+	.projects h2{
+		font-size: 2em;
+	}
+	.projects h3{
+		font-size: 1.3em;
+	}
+	.subtitle{
+		margin: 40px 0 40px;
+	}
+
+	.img-full img{
+		transform: scale(2);
+	}
+	.img-mobile img{
+		padding: 0 40px;
+	}
+
+	.scroll-wrapper, .scroll-container{
+		height: 280px;
+	}
+	.grid-wrapper li{
+		margin: 40px 0;
+	}
+	.img-hero.citi {
+		min-width: 330px;
+		width: 56%;
+		bottom: 0%;
+		left: 90%;
+	}
+}
+
+/*mobile*/
+
+@media screen and (max-width: 480px){
+	h1{
+		font-size: 4rem;
+	}
+	#logo{
+		width: 80px;
+	}
+
+	nav ul li{
+		margin: 8px 5px;
+	}
+
+	.stuck nav ul li{
+		margin: 3px 5px;
+	}
+
+	.main-header span{
+		font-size: 2em;
+	}
+
+	.scrolldown{
+		width: 46px;
+		height: 46px;
+	}
+
+	.description p{
+		padding: 50px 15px;
+	}
+
+	#gotop{
+		bottom: 50px;
+		right: 15px;
+		width: 32px;
+		height: 32px;
+	}
+
+	#gotop:before{
+		background-size: 16px 16px;
+		width: 32px;
+		height: 32px;
+	}
+
+	.c-and{
+		margin: 0 42%;
+	}
+
+	.c-logo{
+		margin: -20px 5%;
+	}
+
+	.text-wrapper {
+		padding: 40px 40px;
+		width: 100%;
+		height: 100%;
+	}
+
+	#gallery.line2 li{
+		height: 200px;
+	}
+
+	.img-full{
+		height: 160px;
+	}
+	.scroll-wrapper, .scroll-container{
+		height: 180px;
+	}
+	.hero-pc .text-container {
+		top: 20%;
+	}
+
+	.projects .hero-citi h4{
+		width: 55%;
+		margin: 10px 0;
+	}
+	.img-hero.citi {
+		min-width: 290px;
+		width: 46%;
+		bottom: 3%;
+		left: 98%;
+	}
+
+}
