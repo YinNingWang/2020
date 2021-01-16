@@ -27,3 +27,17 @@
   });
 
 })(jQuery); // End of use strict
+
+//Go to top專區
+$("#gotop").click(function(){
+  jQuery("html,body").animate({
+      scrollTop:0
+  },1000);
+});
+$(window).scroll(function() {
+  if ( $(this).scrollTop() > 700){
+      $('#gotop').fadeIn().css('opacity','100');
+  } else {
+      $('#gotop').stop().fadeOut();
+  }
+});

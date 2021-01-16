@@ -1430,8 +1430,6 @@ ul.timeline > li:before {
     z-index: 400;
 }
 
-
-
 @media (min-width: 992px) {
   .wt-icon-block {
     border-bottom: solid 1px #e6e7e9;
@@ -1440,4 +1438,7 @@ ul.timeline > li:before {
     border-left: solid 1px #e6e7e9;
   }
 }
+
+
+
 
