@@ -837,7 +837,7 @@ transition-delay:.2s;
     font-weight: 400;
     position: ABSOLUTE;    
     margin-bottom: 0;
-    bottom: -webkit-calc(50% - 32px);
+    bottom: -webkit-calc(50% - 34px);
     padding: 0;
     left: 0;
     text-decoration: none;

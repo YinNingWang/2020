@@ -33,6 +33,16 @@ AOS.init();
     });
   });
 
+  //animate fadein-out
+  $(".owl-demo").owlCarousel({
+    autoplay: true,
+    dots: false,
+    loop: true,
+    autoplayTimeout: 3000,
+    animateOut: 'fadeOut',
+    items: 1
+  });
+
   // Scroll to (Section)
   $(function() {
     $('a[href*=#js-scroll-to-]:not([href=#js-scroll-to-])').on('click', function() {

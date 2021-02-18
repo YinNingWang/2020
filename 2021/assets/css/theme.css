@@ -588,7 +588,7 @@ img.wt-block-image {
 .wt-blockquote-v2::before {
   content: "\201C";
   position: absolute;
-  width: 3.75rem;
+  width: 6rem;
   margin: -1.5625rem 0 0 -2.5rem;
   color: #490bf9;
   font-size: 3.75rem;
@@ -609,8 +609,22 @@ img.wt-block-image {
 }
 
 .wt-blockquote-v2__image {
-  width: 3.75rem;
-  height: 3.75rem;
+  width: 6.5rem;
+  height: 6.5rem;
+}
+
+.img-border {
+  background: 
+  linear-gradient(#fff,#fff) padding-box, /*this is your grey background*/
+  linear-gradient(45deg,  #ffe188 0%, #ff5f67 100%) border-box;
+  border: 5px solid transparent;
+  border-radius:15px;
+  display:inline-block;
+}
+
+.border-left {
+  border-left: 3px solid #e68b0de8!important;
+  padding-left: 20px;
 }
 
 /*------------------------------------
